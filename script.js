@@ -62,7 +62,7 @@ player.act = function () {
 window.addEventListener('load', () => {
     const {delayTratata} = player.act();
 
-    this.addEventListener('keydown', function getPressedButtonKeyCode({KeyCode}) {
+    this.addEventListener('keydown', function getPressedButtonKeyCode({keyCode}) {
         delayTratata(keyCode)
     })
 })
